@@ -1,3 +1,5 @@
+const Accounts = require('./accounts-model')
+
 exports.checkAccountPayload = (req, res, next) => {
   // DO YOUR MAGIC
   // Note: you can either write "manual" validation logic
@@ -8,6 +10,7 @@ exports.checkAccountNameUnique = (req, res, next) => {
   // DO YOUR MAGIC
 }
 
-exports.checkAccountId = (req, res, next) => {
+exports.checkAccountId = async (req, res, next) => {
   // DO YOUR MAGIC
+
 }
